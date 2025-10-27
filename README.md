@@ -67,7 +67,8 @@ My analysis of the **995 restaurants** in the dataset revealed several key trend
 5. **Restaurant Openings:** The highest number of openings occurred during **Q1 (April–June)**, aligning with the fiscal planning cycle and seasonal market readiness.s  
 
 ### 🖼️ Dashboard Preview:
-![Zomato Power BI Dashboard](b7fa84f0-1f2a-4a69-b45f-abfbf98c1919.png)
+<img width="1419" height="738" alt="{1A39A42F-1BBA-43C8-96D5-B0F58C6917E1}" src="https://github.com/user-attachments/assets/f994b160-1148-446e-a858-6298b63ed03b" />
+
 
 ---
 
@@ -93,7 +94,7 @@ Based *directly* on the insights above:
 
 ## 👨‍💻 Author
 **Sandeep Roy**  
-B.Tech, IIT Roorkee s 
+B.Tech, IIT Roorkee
 📧 [sandeep_r@ce.iitr.ac.in](mailto:sandeep_r@ce.iitr.ac.in)  
 🔗 [GitHub Portfolio](https://github.com/sandeeproy1207-ship-it)  
 🔗 [LinkedIn](https://www.linkedin.com/in/sandeep--roy)
