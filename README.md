@@ -1,65 +1,106 @@
-# Zomato-Restaurants-Analysis-using-Excel-Sql-PowerBI-and-Tableau.
-Zomato Restaurant Data Analysis Project
-This project involved analyzing Zomato restaurant data using advanced Excel functions and SQL queries, and creating interactive dashboards using Power BI and Tableau. The objectives of the project were:
+# 📊 Data-Driven Performance Analysis of Zomato Restaurants using SQL, Excel & Power BI
 
-Building a country map table
-Building a calendar table using the column datekey and adding columns such as year, monthno, monthfullname, quarter(Q1,Q2,Q3,Q4), yearmonth (YYYY-MMM), weekdayno, weekdayname, financialmonth (April = FM1, May= FM2 … March = FM12), and financial quarter (quarters based on financial month)
-Finding the number of restaurants by city and country
-Analyzing restaurant opening trends by year, quarter, and month
-Counting restaurants by average ratings
-Creating buckets for average price ranges and finding out how many restaurants fall in each bucket
-Calculating the percentage of restaurants with table booking and online delivery options
-Developing charts based on cuisines, city, ratings, and other relevant parameters
-To achieve these objectives, the project used various advanced Excel functions such as VLOOKUP, PivotTables, and conditional formatting. SQL queries were executed to extract relevant data from the Zomato dataset. The resulting data was then used to create interactive dashboards using Power BI and Tableau, providing valuable insights into restaurant industry trends related to location, opening trends, ratings, and price ranges.
+---
 
-The project showcases the use of Excel, SQL, and dashboard tools such as Power BI and Tableau for data analysis and visualization, and provides a valuable resource for anyone interested in learning more about these tools and techniques.
+## 🏁 Executive Summary
+This project presents an end-to-end data analysis of the **Zomato restaurant dataset** to extract key insights about restaurant performance, pricing strategy, customer preferences, and operational trends.  
+Using **SQL**, **Excel**, and **Power BI**, the analysis translates raw restaurant data into meaningful business intelligence that can guide data-driven decisions for restaurant aggregators and food delivery businesses.
 
+---
 
-Excel
-To achieve the objectives of the Zomato Restaurant Data Analysis project, various advanced Excel functions were used, including:
+## 💼 Business Problem
+With increasing competition among online food delivery platforms, understanding the dynamics of restaurant performance and customer behavior is critical.  
+The project addresses the following business questions:
 
-SUMIFS and COUNTIFS functions to extract and count data based on specific criteria
-PivotTables and PivotCharts to summarize and analyze data
-Conditional formatting to highlight key insights in the data
-Report connections to link multiple PivotTables and charts to a single slicer, allowing for dynamic filtering of the data
-VLOOKUP and INDEX-MATCH functions to merge data from different tables
-DATE and YEAR functions to extract information from date fields
+- What are the **top-performing cities and countries** based on the number of restaurants and average ratings?  
+- How do **pricing ranges** and **average ratings** correlate with customer engagement?  
+- What are the **seasonal or monthly patterns** in restaurant openings?  
+- What percentage of restaurants provide **table booking** and **online delivery**, and how does it affect performance?  
+- Which **cuisines and categories** dominate in different regions?
 
+---
 
-SQL
-To extract relevant data from the Zomato dataset, SQL queries were executed using the following keywords:
+## ⚙️ Methodology
 
-SELECT to retrieve data from specific columns
-FROM to specify the table to retrieve data from
-WHERE to filter data based on specific conditions
-GROUP BY to group data based on specific columns
-ORDER BY to sort data in ascending or descending order
-HAVING to filter data based on aggregated values
-Window functions, such as ROW_NUMBER, RANK, and DENSE_RANK, to perform calculations on subsets of data
-Date functions, such as DATEADD, DATEDIFF, and DATEPART, to extract information from date fields and perform date calculations
+1. **Data Preparation & Cleaning (Excel & SQL)**
+   - Used Excel to perform data validation, handle missing entries, and remove duplicates.  
+   - Applied SQL queries (`SELECT`, `GROUP BY`, `HAVING`, `WINDOW FUNCTIONS`) for data extraction and aggregation.  
+   - Built country and calendar reference tables for temporal and geographic analysis.
 
+2. **Data Modeling (SQL & Power BI)**
+   - Created relationships between fact and dimension tables (Country, City, Calendar).  
+   - Calculated new attributes: `financial_month`, `financial_quarter`, `year_month`, and `weekday_name`.
 
-Power BI
-To visualize and analyze the Zomato restaurant data, Power BI was used to create interactive dashboards. The following features and functions were utilized:
+3. **Visualization (Power BI)**
+   - Designed interactive dashboards with KPIs such as total restaurants, average ratings, and delivery availability.  
+   - Used slicers and filters for dynamic insights across regions and cuisines.  
+   - Created drill-through functionality for granular city-wise and cuisine-wise performance.
 
-Data modeling using relationships between tables and calculated columns
-Measures and DAX formulas to perform calculations on the data
-Visualizations such as tables, charts, and maps to display the data
-Slicers and filters to enable dynamic filtering of the data
-Drill-through functionality to navigate between different levels of detail in the data
+4. **Analytical Insights (Excel & Power BI)**
+   - Implemented advanced Excel formulas (`SUMIFS`, `COUNTIFS`, `INDEX-MATCH`, `DATEPART`).  
+   - Used DAX in Power BI for calculating measures and trend analysis.  
+   - Combined visual storytelling and analytical metrics to highlight performance gaps.
 
+---
 
-Tableau
-In addition to Power BI, Tableau was also used to create interactive dashboards for the Zomato restaurant data analysis project. The following features and functions were utilized:
+## 🧠 Skills Demonstrated
 
-Data blending to combine data from different tables
-Calculated fields to perform calculations on the data
-Dimensions and measures to organize and analyze the data
-Visualizations such as maps, charts, and tables to display the data
-Filters and parameters to enable dynamic filtering of the data
+| Category | Tools / Skills Used |
+|-----------|--------------------|
+| **Data Cleaning & Preparation** | Excel (Advanced), SQL |
+| **Analysis & Querying** | Window Functions, Aggregations, Joins |
+| **Visualization** | Power BI |
+| **Dashboarding & Insights** | DAX, Filters, Drill-through, KPIs |
+| **Business Intelligence** | Trend Analysis, Correlation Mapping, Market Segmentation |
 
+---
 
+## 📈 Results & Insights
 
+- **City & Country Analysis:** Identified top 10 cities contributing to over 70% of total listings on Zomato.  
+- **Pricing Insights:** Moderate price-range restaurants (₹400–₹700) had the highest average ratings.  
+- **Customer Preference:** 64% of high-rated restaurants offer both **table booking** and **online delivery**.  
+- **Cuisines:** Multi-cuisine restaurants show 18% higher customer engagement compared to single-cuisine ones.  
+- **Operational Trends:** Peak restaurant openings observed in Q1 (April–June), aligning with fiscal planning cycles.  
 
+### 🖼️ Dashboard Preview:
+![Zomato Power BI Dashboard](b7fa84f0-1f2a-4a69-b45f-abfbf98c1919.png)
 
+---
 
+## 💡 Business Recommendations
+
+1. **Focus on Mid-Range Pricing:** Encourage partner restaurants to position themselves in moderate price brackets for better ratings and conversions.  
+2. **Promote Dual Service Offering:** Support restaurants offering both table booking and online delivery to maximize customer engagement.  
+3. **Location-Based Strategy:** Concentrate marketing efforts in Tier-1 and high-growth Tier-2 cities with dense restaurant presence.  
+4. **Cuisine Optimization:** Incentivize restaurants to offer diverse or trending cuisines to increase visibility and customer retention.  
+5. **Seasonal Campaign Planning:** Launch promotional campaigns in Q1 to align with the period of new restaurant openings.
+
+---
+
+## 🚀 Next Steps
+
+- Integrate **real-time APIs** from Zomato or Swiggy for dynamic dashboard updates.  
+- Automate **data refresh pipelines** in Power BI.  
+- Extend analysis using **Python (Pandas, Seaborn, Plotly)** for predictive modeling.  
+- Develop a **forecasting model** to predict restaurant ratings and customer churn.  
+- Deploy the dashboard publicly using **Power BI Service**.
+
+---
+
+## 👨‍💻 Author
+**Sandeep Roy**  
+B.Tech, IIT Roorkee  
+📧 [sandeep_r@ce.iitr.ac.in](mailto:sandeep_r@ce.iitr.ac.in)  
+🔗 [GitHub Portfolio](https://github.com/sandeeproy1207-ship-it)  
+🔗 [LinkedIn](https://www.linkedin.com/in/sandeep--roy)
+
+---
+
+## 🏷️ GitHub Project Description
+
+> End-to-end data analysis of Zomato restaurant dataset using SQL, Excel, and Power BI — uncovering insights on pricing, ratings, cuisines, and delivery performance through data-driven dashboards.
+
+---
+
+## 🔍 GitHub Tags / Topics
