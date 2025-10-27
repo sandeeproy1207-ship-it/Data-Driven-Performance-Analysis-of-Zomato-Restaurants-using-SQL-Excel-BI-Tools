@@ -64,7 +64,8 @@ The project addresses the following business questions:
 - **Operational Trends:** Peak restaurant openings observed in Q1 (April–June), aligning with fiscal planning cycles.  
 
 ### 🖼️ Dashboard Preview:
-![Zomato Power BI Dashboard](b7fa84f0-1f2a-4a69-b45f-abfbf98c1919.png)
+<img width="1427" height="742" alt="{57F31D62-98FE-4C40-BF12-5453A4747A41}" src="https://github.com/user-attachments/assets/7eade268-b3b1-4bb8-9aba-53ecffb926ac" />
+
 
 ---
 
